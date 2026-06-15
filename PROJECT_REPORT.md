@@ -66,11 +66,13 @@ La aplicación ofrece las siguientes funciones:
 - Modelo y datos: `/Users/david/ia/rnn/model`
 
 ### GitHub
-- El repositorio local aún no tiene un remote configurado para GitHub.
-- Si deseas, puedes conectar un repo con:
+- El repositorio local ahora está conectado a GitHub en:
+  `https://github.com/echodavid/RNN_autocompletePrhase.git`
+- La rama `main` fue empujada al remoto exitosamente.
+- Si necesitas volver a configurar o usar SSH en el futuro:
   ```bash
   cd /Users/david/ia/rnn
-  git remote add origin git@github.com:TU_USUARIO/TU_REPO.git
+  git remote add origin git@github.com:echodavid/RNN_autocompletePrhase.git
   git branch -M main
   git push -u origin main
   ```
