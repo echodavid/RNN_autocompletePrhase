@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 model/.venv/
 model/data/
+model/corpus_cache.pkl
 
 # Node
 node_modules/
