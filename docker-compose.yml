@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: back/Dockerfile
+    image: rnn-back:latest
+    ports:
+      - "8001:8001"
+    restart: always
+
+  frontend:
+    build:
+      context: .
+      dockerfile: fron/Dockerfile
+    image: rnn-front:latest
+    ports:
+      - "5500:5500"
+    restart: always
+    depends_on:
+      - backend

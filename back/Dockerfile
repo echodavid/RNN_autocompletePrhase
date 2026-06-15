@@ -8,7 +8,8 @@ RUN python -m pip install --upgrade pip && \
     python -m pip install --no-cache-dir -r back/requirements.txt torch
 
 COPY back /app/back
-COPY model /app/model
+COPY model/saved_model.pt /app/model/saved_model.pt
+COPY model/corpus_cache.pkl /app/model/corpus_cache.pkl
 
 WORKDIR /app/back
 EXPOSE 8001

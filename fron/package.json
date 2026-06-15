@@ -1,0 +1,12 @@
+{
+  "name": "corrector-front",
+  "version": "1.0.0",
+  "description": "Frontend estático para el corrector ortográfico inteligente",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  }
+}
